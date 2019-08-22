@@ -25,7 +25,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
         navigationController?.isToolbarHidden = false
     }
 
-    // func loadView(): khởi tạo đầu tiên khi khởi tạo một view controller. Dùng để khởi tạo các UI (label...) trong view lớn này.
+    // func loadView(): khởi tạo đầu tiên khi khởi tạo một view controller. Dùng để khởi tạo các UI (label, button, texfield...) trong view lớn này.
     override func loadView() {
         webView = WKWebView()
         webView.navigationDelegate = self
